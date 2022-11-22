@@ -1,0 +1,18 @@
+:root{
+    --background-white:rgb(255, 255, 255);
+    --background-dark: rgb(12, 50, 63);
+    --background-grey: rgb(56, 56, 56);
+    --background-blue: rgb(5, 64, 243);
+    --background-green: rgb(38, 194, 189);
+    --background-red: rgb(176, 1, 1);
+    --background-hover-green: rgb(32 185 180);
+    --background-theme:rgb(38, 194, 189);
+    --background-theme-hover:rgb(32 185 180);
+
+    --text-color-white: white;
+    --text-color-dark: rgb(12, 50, 63);
+    --text-color-grey: rgb(56, 56, 56);
+    --text-color-green: rgb(38, 194, 189);
+    --text-color-blue: rgb(5, 64, 243);
+    
+}

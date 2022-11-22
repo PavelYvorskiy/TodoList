@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/style/css/base.css" />
+    <link rel="stylesheet" href="./assets/style/css/variablen.css" />
+    <link rel="stylesheet" href="./assets/style/css/header.css" />
+    <link rel="stylesheet" href="./assets/style/css/main.css" />
+    <title>Todo List</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="header-content-items">
+                    <h3 class="header-logo">To do List</h3>
+                </div>
+                <div class="header-content-items">
+                    <ul class="themes-color-menu">
+                        <li class="themes-color-menu__item">
+                            <span class="themes-color-menu__text">Theme color</span>
+                            <ul class="themes-color-submenu">
+                                <li class="themes-color-submenu__item">
+                                    <span class="themes-color-submenu__text" id="green">Theme green</span>
+                                </li>
+                                <li class="themes-color-submenu__item">
+                                    <span class="themes-color-submenu__text" id="dark">Theme dark</span>
+                                </li>
+                                <li class="themes-color-submenu__item">
+                                    <span class="themes-color-submenu__text" id="blue">Theme blue</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="mainContainer">
+            <div class="mainContent">
+                <div class="containerForm">
+                    <h3>create new task</h3>
+                    <form class="form" id="form-task" name="formTask" action="">
+                        <input name="title" type="text" placeholder="name task" value="">
+                        <input name="description" type="text" placeholder="description task" value="">
+                        <input id="category" name="category" type="text" placeholder="category task" value="">
+                        <ul class="categoryBox">
+                            <li name="home"><img src="./assets/svg/home.svg" alt="home task" name="home"></li>
+                            <li name="work"><img src="./assets/svg/library.svg" alt="work task" name="work"></li>
+                            <li name="hard"><img src="./assets/svg/heart.svg" alt="hard task" name="hard"> </li>
+                        </ul>
+                        <button id="btn_create" class="button btn_create"><span>create</span></button>
+
+                    </form>
+                </div>
+                <div class="containerCategory">
+                    <h3>category task</h3>
+                    <div class="contentCategory"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
